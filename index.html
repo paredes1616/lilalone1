@@ -25,15 +25,29 @@ p {
   color: #33ff33;
 }
 
-.your-element {
-    background-image: url('Internet Streaming GIF by Butlerm.gif'); 
+body {
+    background-image: url('your-gif-file.gif'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-    min-height: 100vh; 
-    width: 100%;
+    background-color: #cccccc; 
+    height: 100vh; 
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
+  body {
+    image-rendering: pixelated; 
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
 
 p {
   <link rel="preconnect" href="https://fonts.googleapis.com">
